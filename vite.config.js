@@ -7,5 +7,5 @@ export default defineConfig({
   css: {
     postcss: './postcss.config.cjs',
   },
-  base: 'https://mongsil90.github.io/sentencifyMVP-teamproject/'
+  base: '/sentencifyMVP-teamproject/'
 });
