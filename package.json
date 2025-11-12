@@ -2,6 +2,7 @@
   "name": "vite-react-starter",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://mongsil90.github.io/sentencifyMVP-teamproject/",
   "type": "module",
   "scripts": {
     "dev": "vite",
