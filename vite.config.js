@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   css: {
-    postcss: './postcss.config.cjs', // <- .cjs로 명시
+    postcss: './postcss.config.cjs',
   },
+  base: 'https://mongsil90.github.io/sentencifyMVP-teamproject/'
 });
