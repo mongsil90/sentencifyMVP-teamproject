@@ -34,6 +34,7 @@ export default function App() {
   const [docId, setDocId] = useState(() => uuidv4());
   const [recommendId, setRecommendId] = useState(null);
 
+
   // 자동 저장
   useEffect(() => {
     const t = setTimeout(() => {
