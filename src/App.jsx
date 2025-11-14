@@ -86,7 +86,7 @@ export default function App() {
   const updateContext = (fullText, start) => {
     const sentences = fullText.split(/(?<=[.!?])\s+/);
     let prev = '',
-      next = '';
+        next = '';
     let cumulative = 0;
     for (let i = 0; i < sentences.length; i++) {
       const s = sentences[i];
